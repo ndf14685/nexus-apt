@@ -1,32 +1,33 @@
 Package: nexus-archive-keyring
 Architecture: all
-Version: 0.11.2
+Version: 0.11.3
 Priority: optional
 Section: admin
 Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
-Filename: pool/main/nexus-archive-keyring_0.11.2_all.deb
-Size: 1172
-MD5sum: 92c8517f7f1ea30bd2197920658f4b3f
-SHA1: 19119db3721b6c6baff89421e9d0f28e83c511c2
-SHA256: 0b4d11eb05a28984d0c3e87294af75ff53c6b529956dadba7c7e8b2838db544a
-SHA512: b32f2a5410bebac5a4405115028bc42c82eb66ce194aaf4e9fb3405809473bddc4c9a99291474558c336ee06264c6618414b53db3aab74a76fa05f761eb62edb
+Depends: ca-certificates
+Filename: pool/main/nexus-archive-keyring_0.11.3_all.deb
+Size: 1240
+MD5sum: 493477c3591e7a8b05a84f999c22c29e
+SHA1: 778cf2d367d816f66f456dc3f3ffe9c2c6bb5087
+SHA256: 7b701f3fee53bf9a64a1b75c6f84ae5db73c5db90ddcce2e928b6aa7a9775745
+SHA512: 15bc1204e7cf1983a50795e096c2996e6338fa93c662dcd8b037dfc90fa05279ec137b925a95d31e741f3dd9b0faa6bee992e6960af43ebf383b1ec6a7d49bf4
 Description: llave de firma y fuente apt del archivo de Nexus AI OS
  Instala la llave pública con la que se firma el archivo apt de Nexus AI OS
  y la fuente (deb822) que apunta al canal estable sobre Debian trixie.
 
 Package: nexus-os-desktop
 Architecture: all
-Version: 0.12.0
+Version: 0.13.0
 Priority: optional
 Section: metapackages
 Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
-Depends: nexus-archive-keyring, nexus-os-identity, nexus-os-runtime, task-kde-desktop, network-manager, plasma-nm, plasma-pa, firefox-esr, pipewire-audio
-Filename: pool/main/nexus-os-desktop_0.12.0_all.deb
-Size: 808
-MD5sum: 7a5af5dfa9cddf8160f81f219cc6b20e
-SHA1: 86d762376408bee1f444b2d046a715b958581968
-SHA256: 20cd6297d7496fa1a18d28137e5a7023cf17627bfefa404402b82274537e0416
-SHA512: 676f5f0cbc9e446357907408e6c8e511d4a4c8d90a0d803fead139c364b354888a9df54b32d352733055fec2835b02b0716d7d9c8ebcd7a6227f3eb977c074e2
+Depends: nexus-archive-keyring, nexus-os-identity, nexus-os-runtime, nexus-workbench, task-kde-desktop, network-manager, plasma-nm, plasma-pa, firefox-esr, pipewire-audio
+Filename: pool/main/nexus-os-desktop_0.13.0_all.deb
+Size: 812
+MD5sum: 7ffa481d67528d7beef7410f3eeb99a3
+SHA1: 34b9690429573c3a794cda1a5a29d4fa840bc682
+SHA256: d9464eed68a19c4172497c57f4e847fd35d69e0b926a0a2c50e3335517b62539
+SHA512: f2da57af19bd11f23fd6a54ac1d32e7799f5f6e4e806c74ee19eb99e094ffecdb0369a9b5e4e724335db053bb9e8de171bd9124ead1536a0b433ad6dae6412e5
 Description: Nexus AI OS Workstation (metapaquete)
  Define el conjunto de la Workstation: escritorio KDE Plasma estándar de
  Debian más la identidad y el canal de actualización de Nexus AI OS.
