@@ -1,0 +1,23 @@
+Architectures: amd64
+Codename: trixie
+Components: main
+Date: Fri, 07 Aug 2026 00:27:04 +0000
+Label: Nexus AI OS
+Origin: Nexus AI OS
+Suite: trixie
+MD5Sum:
+ a42554570cda42634e47331da982c301              146 Release
+ 8698481f4c60abb2e360f17e6725f315             2579 main/binary-amd64/Packages
+ 39bbd4e44de1154ead0d17f6bba6f81d             1337 main/binary-amd64/Packages.gz
+SHA1:
+ 31a52ed0b15d199a83158627bc0fd63d1296a9bb              146 Release
+ f64262ebad827b3def32ad80d695805d35d0a039             2579 main/binary-amd64/Packages
+ a3d22b1e99f1f138826b4ea7de5e7f5d769e9fa1             1337 main/binary-amd64/Packages.gz
+SHA256:
+ 77689c7dcd8546474f4a80e551b8c70a01204982a773724cc5c3e0791da9632e              146 Release
+ f5a3e03b38bfcd199e71061c1c6238fe46c929d1d426772bc1005eb8c7ea085a             2579 main/binary-amd64/Packages
+ 25855f8053a131cf5a8a13d6024b7f8e9a33f6943e25e206c19aa040d81275d2             1337 main/binary-amd64/Packages.gz
+SHA512:
+ cba0cbb4de59aeede6c391b34dcee4a38e7fa6eaaf529489973c2596a669cd183c14c34fe8ca4ffae2418bbe93e63486d269de037914656d69fd767b3b8a8ec4              146 Release
+ 1bbf8f9b020a3eb2b6eed2feb93c94d690e16131094f08f50a9a3875425a37f52d0f1a842f66f9b5957a3b2a804eb1ad5a435c8348fc18592774f4faaacec68b             2579 main/binary-amd64/Packages
+ b3505c5e260ed389fe0b1a2d32dbb61218bc543266eb89dc3948b41574451090185ee17acddb8be25219a7cde05a99a058f8f73521d399ab0c3ade74f60c9da2             1337 main/binary-amd64/Packages.gz

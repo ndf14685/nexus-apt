@@ -1,0 +1,55 @@
+Package: nexus-archive-keyring
+Architecture: all
+Version: 0.11.0
+Priority: optional
+Section: admin
+Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
+Filename: pool/main/nexus-archive-keyring_0.11.0_all.deb
+Size: 1196
+MD5sum: aeac60961a6bca27c6641099a8e96822
+SHA1: abf28814d78d0cd18c8dec79c87e2f1a6b94034b
+SHA256: 386a7e45d25788982e64fc43052953e52a8e4ce8bb8c4fda288a1a017f6c479a
+SHA512: 01f51a81fd76a8c7069a25e0326606cedcdfeeed22c4875bbbc058b854c1442a57b250bd13f766c892e2f547205f7403abe8ac221fea6757807b3fc6c58bfdd4
+Description: llave de firma y fuente apt del archivo de Nexus AI OS
+ Instala la llave pública con la que se firma el archivo apt de Nexus AI OS
+ y la fuente (deb822) que apunta al canal estable sobre Debian trixie.
+
+Package: nexus-os-desktop
+Architecture: all
+Version: 0.11.0
+Priority: optional
+Section: metapackages
+Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
+Depends: nexus-archive-keyring, nexus-os-identity, task-kde-desktop, network-manager, plasma-nm, plasma-pa, firefox-esr, pipewire-audio
+Filename: pool/main/nexus-os-desktop_0.11.0_all.deb
+Size: 804
+MD5sum: 5440426cf4bfb2db63a129209d0770d6
+SHA1: d494b5b273b91f99cb8475b717222c9a74d4e29f
+SHA256: c4ed178f9d27a8288cea0ce8839bd2a0be84dc877b284ba6054b73fca8d0f0de
+SHA512: 5248e70589958831fbe0811e6c04e2f90435eff7518d6b8152383d18a0bcb8f41bb1baef63fbba68e940d0977892045413bba4f23bdbd537af2695624cf5859b
+Description: Nexus AI OS Workstation (metapaquete)
+ Define el conjunto de la Workstation: escritorio KDE Plasma estándar de
+ Debian más la identidad y el canal de actualización de Nexus AI OS.
+ Las capas de IA (Nexus Runtime, Workbench, gobernanza) se agregan como
+ dependencias de este paquete en versiones siguientes: actualizar el
+ producto es 'apt update && apt upgrade'.
+
+Package: nexus-os-identity
+Architecture: all
+Version: 0.11.0
+Priority: optional
+Section: admin
+Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
+Depends: base-files
+Filename: pool/main/nexus-os-identity_0.11.0_all.deb
+Size: 1038
+MD5sum: 63e0a49677b8b2beb55003ff41893eb7
+SHA1: 9730b56676359b67a882533b86d7614aeae77385
+SHA256: 14eeebf6497c27b76bd6c9b10c950eaac9863493695b2b531bc3616b445db381
+SHA512: d32d1630231a9ded7832307bedce9a50b77b4b910f633947704d8df4318be241b9ba9db6b0143db62830b582ed1b3ea83141b20b708196e4fc68e6b0bee891ed
+Description: identidad de Nexus AI OS como derivada de Debian
+ Desvía (dpkg-divert) el os-release de base-files e instala el de
+ Nexus AI OS. El original queda en /usr/lib/os-release.debian y se
+ restaura al desinstalar. /etc/os-release es el symlink estándar y
+ no se toca.
+
