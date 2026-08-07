@@ -1,23 +1,23 @@
 Architectures: amd64
 Codename: trixie
 Components: main
-Date: Fri, 07 Aug 2026 00:28:40 +0000
+Date: Fri, 07 Aug 2026 00:56:23 +0000
 Label: Nexus AI OS
 Origin: Nexus AI OS
 Suite: trixie
 MD5Sum:
- b185e0fb1fdfc8a0570fccc404ab2fee              146 Release
- 5d35880b8debcb1e2c9697525e0bd4eb             2579 main/binary-amd64/Packages
- ed60cd3f7dc9cbf594f75122ee33bc82             1336 main/binary-amd64/Packages.gz
+ 8ffa0bbc8c640b8757b49b77b317112b              146 Release
+ 40be474711153ef84001f79aef49a432             2579 main/binary-amd64/Packages
+ 17f76cea0ab953a0bddf6215edbc54dd             1333 main/binary-amd64/Packages.gz
 SHA1:
- 9975025e3958e8f5b541f048665d829aef832f6d              146 Release
- d2fb5886c1c059b8a8e24df4e96c982381995f7f             2579 main/binary-amd64/Packages
- 1a44176c7d1a0802dcc5419df1a9c043f2b7e137             1336 main/binary-amd64/Packages.gz
+ 3f3898b94d9126d26ef574fcab1ef593a1e5dae4              146 Release
+ 0a9bf1b8c812d0fa33e63815012949f14186d116             2579 main/binary-amd64/Packages
+ b379e4d7583b08ac9c5719c6b000b2efb5953cd5             1333 main/binary-amd64/Packages.gz
 SHA256:
- 9bce5c21500fc820f6fbd13b9d10bd4e4ff87206df09ad3077be7697ce4953eb              146 Release
- 7cd011ef43ae9e87abe66409bbb192ce55c23a9d88c50680e63a8ab8159ced61             2579 main/binary-amd64/Packages
- 7e767cc1a4b9b4839eeb25fb3806a14a7d7a83ae1c164e1f78252ec58e4813f5             1336 main/binary-amd64/Packages.gz
+ 2d5d9d3e0d8a9a41b6d4c06c1b6458e2b7a4ff80b8c3612a46c97cfc74028246              146 Release
+ 1f2848c276581ebefedc26324fea0226bc2a9869634258f07e40acf7b766465c             2579 main/binary-amd64/Packages
+ bc67ebbfdae66c85deeef66ebd0db2515b9e846f1e5b44f58d77fec741264882             1333 main/binary-amd64/Packages.gz
 SHA512:
- 6b4fe62968e4c0902a6f80125236af027f1da563449958402d96200241550145131167133001a77e7c5f09ea1c03038959788425024405d0e04324a3be8b07c7              146 Release
- 79403f1d01b5e7a89d851d643250f5040076201bd741829e756a1e830d0f0249bca09c1fb105d0a41af146a4a96b3ccd2868df7a3f0d54c76dd531c06855b4f0             2579 main/binary-amd64/Packages
- 06d9528d3b0b1e5b8fdb112fadea0a4a642c8cfa95bf08949280ed88fc2e2b8eaee3457bfb95f3abc5959401aff00bc376d4e9b06a494c988a3121cb33956983             1336 main/binary-amd64/Packages.gz
+ a0f4651cbb4b6e2e39879f542e8a7a30a97e0eaff4baae68cb1ff12c17470e4e615f3de3a2b425103d091e52d87324d5ca34467761012066bdf0d2e353875e22              146 Release
+ d8d4403a49ecb44d63127303040b457438e8f687ac4fdece0cb8f6c18670d828088256e636bf4942baac45fb2da51eb1e50d1b98a3a6aa084542121d5f6547b7             2579 main/binary-amd64/Packages
+ a1f032a88bd44fa9098232f2fbeadb690d6d73aa6e907a35e7b9fd810c29a8fcdf6606f1435cd5b94675175909351f9d03ae550e1acd2afa6eb90f8ed092b7f4             1333 main/binary-amd64/Packages.gz
