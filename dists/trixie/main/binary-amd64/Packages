@@ -16,17 +16,17 @@ Description: llave de firma y fuente apt del archivo de Nexus AI OS
 
 Package: nexus-os-desktop
 Architecture: all
-Version: 0.11.2
+Version: 0.12.0
 Priority: optional
 Section: metapackages
 Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
-Depends: nexus-archive-keyring, nexus-os-identity, task-kde-desktop, network-manager, plasma-nm, plasma-pa, firefox-esr, pipewire-audio
-Filename: pool/main/nexus-os-desktop_0.11.2_all.deb
-Size: 802
-MD5sum: c0d3f3d14ab21d98fea9b12a854a49bc
-SHA1: c71c8fa1bfec2ebde2eddf5736b6981d27ebdab3
-SHA256: 191e02b88ed6a1d1217eed0c02cb872ad27cc454a15979eae00a288c0cb0939f
-SHA512: 5fa1557c47224634f7d6a74a440cf6fc8146213df2320d0b0b2a1404accf8cec6837675b1f1460da5f68cffacf955895ede7fd8c8b22ba8a0fa29433dda434db
+Depends: nexus-archive-keyring, nexus-os-identity, nexus-os-runtime, task-kde-desktop, network-manager, plasma-nm, plasma-pa, firefox-esr, pipewire-audio
+Filename: pool/main/nexus-os-desktop_0.12.0_all.deb
+Size: 808
+MD5sum: 7a5af5dfa9cddf8160f81f219cc6b20e
+SHA1: 86d762376408bee1f444b2d046a715b958581968
+SHA256: 20cd6297d7496fa1a18d28137e5a7023cf17627bfefa404402b82274537e0416
+SHA512: 676f5f0cbc9e446357907408e6c8e511d4a4c8d90a0d803fead139c364b354888a9df54b32d352733055fec2835b02b0716d7d9c8ebcd7a6227f3eb977c074e2
 Description: Nexus AI OS Workstation (metapaquete)
  Define el conjunto de la Workstation: escritorio KDE Plasma estándar de
  Debian más la identidad y el canal de actualización de Nexus AI OS.
@@ -52,4 +52,26 @@ Description: identidad de Nexus AI OS como derivada de Debian
  Nexus AI OS. El original queda en /usr/lib/os-release.debian y se
  restaura al desinstalar. /etc/os-release es el symlink estándar y
  no se toca.
+
+Package: nexus-os-runtime
+Architecture: all
+Version: 0.12.0
+Priority: optional
+Section: admin
+Maintainer: Nexus AI OS Archive <apt@nestorfleitas.ar>
+Depends: python3 (>= 3.11), python3-yaml, python3-cryptography, git, openssl, adduser
+Recommends: python3-requests
+Suggests: python3-ldap3
+Filename: pool/main/nexus-os-runtime_0.12.0_all.deb
+Size: 419654
+MD5sum: 966d0879bd2ce39394830947d73a3a03
+SHA1: 42bed1c4b668c728df065bca776cd71e0d68377c
+SHA256: ca560cc65b2edb2c927e1f23ad54e4d0fb825c551e5d6a320dacc1026ce67621
+SHA512: ed4a5cb5ceb3bcf81ab4163020116598aba050112e56ac828e4ece8533db5c4af327d96be82ed8cde83e111b0de4ede8029a58678d70f178e6f0aaaccd587073
+Description: Nexus Runtime — capabilities gobernadas con auditoría verificable
+ API pública v1 de NexusOS en 127.0.0.1:8095 (systemd: nexus-os-runtime).
+ Toda invocación pasa el pipeline de gobernanza: identidad, permisos del
+ operador (/etc/nexusos/permissions), evaluación de riesgo, PEP y auditoría
+ append-only con cadena HMAC y firma Ed25519. Si la auditoría no puede
+ persistirse, la ejecución se niega (fail-closed).
 
