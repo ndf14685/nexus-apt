@@ -4,30 +4,30 @@ Hash: SHA512
 Architectures: amd64
 Codename: trixie
 Components: main
-Date: Fri, 07 Aug 2026 00:56:23 +0000
+Date: Fri, 07 Aug 2026 02:48:15 +0000
 Label: Nexus AI OS
 Origin: Nexus AI OS
 Suite: trixie
 MD5Sum:
- 8ffa0bbc8c640b8757b49b77b317112b              146 Release
- 40be474711153ef84001f79aef49a432             2579 main/binary-amd64/Packages
- 17f76cea0ab953a0bddf6215edbc54dd             1333 main/binary-amd64/Packages.gz
+ e3168f5c0dac22649bf2419027b414ce              146 Release
+ 42b2d267b275e10a3addb0bd1373832a             2579 main/binary-amd64/Packages
+ 5e3548cc49c704e86659e3a656157ac6             1333 main/binary-amd64/Packages.gz
 SHA1:
- 3f3898b94d9126d26ef574fcab1ef593a1e5dae4              146 Release
- 0a9bf1b8c812d0fa33e63815012949f14186d116             2579 main/binary-amd64/Packages
- b379e4d7583b08ac9c5719c6b000b2efb5953cd5             1333 main/binary-amd64/Packages.gz
+ 1dc097479f8288130a67b1e333989660df8f83f6              146 Release
+ 33d15b9bf30efdf5ac851d4fde2f16cd0e6572c2             2579 main/binary-amd64/Packages
+ 59339c35512d275ea546a04350bf4dec26835acf             1333 main/binary-amd64/Packages.gz
 SHA256:
- 2d5d9d3e0d8a9a41b6d4c06c1b6458e2b7a4ff80b8c3612a46c97cfc74028246              146 Release
- 1f2848c276581ebefedc26324fea0226bc2a9869634258f07e40acf7b766465c             2579 main/binary-amd64/Packages
- bc67ebbfdae66c85deeef66ebd0db2515b9e846f1e5b44f58d77fec741264882             1333 main/binary-amd64/Packages.gz
+ f3d015fda58012f3c993f60c8244e401c76821c465629e43b703f9c75bd7035c              146 Release
+ 7cadce74e36fede922f87631c0896a027aba1b689956f12e099a46154008669f             2579 main/binary-amd64/Packages
+ f38d212bf72a0cf49e431da900dd799f34355e83f8dda2e5d3cba9a971aabbc4             1333 main/binary-amd64/Packages.gz
 SHA512:
- a0f4651cbb4b6e2e39879f542e8a7a30a97e0eaff4baae68cb1ff12c17470e4e615f3de3a2b425103d091e52d87324d5ca34467761012066bdf0d2e353875e22              146 Release
- d8d4403a49ecb44d63127303040b457438e8f687ac4fdece0cb8f6c18670d828088256e636bf4942baac45fb2da51eb1e50d1b98a3a6aa084542121d5f6547b7             2579 main/binary-amd64/Packages
- a1f032a88bd44fa9098232f2fbeadb690d6d73aa6e907a35e7b9fd810c29a8fcdf6606f1435cd5b94675175909351f9d03ae550e1acd2afa6eb90f8ed092b7f4             1333 main/binary-amd64/Packages.gz
+ b77302196eba233f06fb8cd7f03732d9a5fb36601f5fc0217e69d39bae37fccab7839514f77263d6fea198b7070ab05df5a22b90f00c2e2036cb4e9d525e5efe              146 Release
+ 078a36a47a3a9f5f37d9e058e0463f787ab03ec29218c5dca69af88554a8446193796d69d4157ba0a6579151325f6e53e18cc0c5267d18306891410075ed68ca             2579 main/binary-amd64/Packages
+ 550c99634b3ef2e4cbdd7dd3b284fa42b45f284d03c74f4a645ef3e1568922ad34b8be73569bda3115cc1ccf48e62a2038468da2aa9c4a677baf7d6d897242df             1333 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iIsEARYKADMWIQQdN/9gC2vnoV6dS3jtwhpKd/2UWAUCanUtNxUcYXB0QG5lc3Rv
-cmZsZWl0YXMuYXIACgkQ7cIaSnf9lFhQTgD/ZETfGhYMIypqluAYWBdzaCXyD4+A
-UJjJgLa/VKUy1ncA/ibGE+tdnNmWT3V+3hDkWsqLaJFGpv9qlFihFYjS3RMK
-=b+RI
+iIsEARYKADMWIQQdN/9gC2vnoV6dS3jtwhpKd/2UWAUCanVHbxUcYXB0QG5lc3Rv
+cmZsZWl0YXMuYXIACgkQ7cIaSnf9lFgCJgEAlxtIp4p+IJppv/SO0MEIFcw+Okdy
+ieNhl2TRBAtUqtMA/joN6M7hQWGUA8EQTHuJYe1MZPdEjWHO/kUiwyxNZaIK
+=Yu+4
 -----END PGP SIGNATURE-----
